@@ -1,9 +1,11 @@
-import product from "./components/product";
+import Product from "./components/Product";
+
 // FOUR WAY
 function App() {
   return (
     <div id="emad" className="emadclass">
-      Hello Matin4
+      Hello My Friends...
+      <Product />
     </div>
   );
 }
