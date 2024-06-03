@@ -1,14 +1,14 @@
-import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 
-// THIRD WAY
-function App() {
-  return (
-    <div id="emad" className="emadclass">
-      Hello Matin3
-    </div>
-  );
-}
+// // THIRD WAY
+// function App() {
+//   return (
+//     <div id="emad" className="emadclass">
+//       Hello Matin3
+//     </div>
+//   );
+// }
 
 // SECOND WAY
 // const element = (
@@ -24,7 +24,5 @@ function App() {
 //   "Hello world"
 // );
 
-const root = document.getElementById("root");
-
-// ReactDOM.render(element, root);
-ReactDOM.render(<App />, root);
+// ReactDOM.render(element, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
