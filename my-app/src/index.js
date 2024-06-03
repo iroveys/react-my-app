@@ -1,1 +1,12 @@
 import React from "react";
+import ReactDOM from "react-dom";
+
+const element = React.createElement(
+  "div",
+  { id: "emad", className: "emadclass" },
+  "Hello world"
+);
+
+const root = document.getElementById("root");
+
+ReactDOM.render(element, root);
