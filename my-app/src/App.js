@@ -1,13 +1,15 @@
-import Product from "./components/Product";
+// import Product from "./components/product/Product";
+import ProductList from "./components/ProductList/ProductList";
 
 // FOUR WAY
 const App = () => {
   return (
     <div id="emad" className="emadclass">
       Hello My Friends...
-      <Product title="emad1" />
+      <ProductList />
+      {/* <Product title="emad1" />
       <Product title="emad2" />
-      <Product title="emad3" />
+      <Product title="emad3" /> */}
     </div>
   );
 };
