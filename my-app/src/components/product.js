@@ -1,4 +1,6 @@
-function Product() {
-  return <div>This is test for first component...</div>;
-}
+import "./product.css";
+
+const Product = (props) => {
+  return <div className="product">{props.title}</div>;
+};
 export default Product;
